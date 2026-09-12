@@ -19,11 +19,15 @@
 
 axe-core no detectó infracciones en las comprobaciones WCAG A/AA disponibles para la portada y las tres páginas legales en ambos temas, ni con el selector de apariencia abierto. La única comprobación incompleta fue el contraste de una flecha decorativa; usa el color principal del texto sobre el fondo de página. Esto no equivale a certificar conformidad WCAG completa.
 
-La carga local solicita únicamente HTML, CSS, JavaScript, la fuente y una captura adaptativa del mismo origen. En móvil se carga la captura móvil, no ambas. No se crean cookies propias. El almacenamiento local permanece vacío hasta que se elige una apariencia manualmente.
+La carga local solicita únicamente HTML, CSS, JavaScript, la fuente y las dos capturas del mismo origen. Por petición de Fernando, escritorio y móvil se muestran juntos dentro de un único enlace a ADESA80. No se crean cookies propias. El almacenamiento local permanece vacío hasta que se elige una apariencia manualmente.
+
+El ajuste de capturas se comprobó en doce combinaciones de tamaño, tema y navegador: ambas imágenes abren ADESA80 en una pestaña nueva, el teléfono permanece dentro del enlace, no invade la leyenda y no provoca desbordamiento. El enlace también recibe foco por teclado.
 
 El acceso privado de Sites y sus registros técnicos no forman parte de este inventario local. Deben revisarse con la configuración final de alojamiento antes del lanzamiento público, tal como se indica en las páginas legales y en `publicacion.md`.
 
-## Rendimiento de laboratorio
+## Rendimiento de laboratorio de la revisión 2
+
+Estas mediciones corresponden a la versión anterior con una sola captura adaptativa. La composición actual carga ambas capturas y su transferencia total es mayor; estos valores no se presentan como una medición de la versión actual.
 
 Chromium, caché desactivada, latencia simulada de 150 ms, descarga de 200.000 bytes/s y CPU ralentizada cuatro veces. Observaciones de una carga por tamaño, sin interacciones durante la medición:
 

@@ -399,14 +399,36 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 12px;
 }
-.project-visual picture {
+.project-screens {
   display: block;
+  position: relative;
+  padding-block: 12px 32px;
+  border-radius: 5px;
 }
 .project-visual img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 5px;
+}
+.project-visual .project-desktop {
+  width: 90%;
+  border: 1px solid var(--line);
+}
+.project-mobile {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 24%;
+  max-width: 280px;
+  border: 6px solid #102019;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #102019;
+  box-shadow: 0 10px 28px #00000026;
+}
+.project-mobile img {
+  border-radius: 16px;
 }
 .project-visual figcaption {
   padding-top: 14px;
@@ -885,9 +907,21 @@ h3 {
 }
 @media (max-width: 600px) {
   .project-visual {
-    max-width: 430px;
-    margin-inline: auto;
     padding: 16px 16px 12px;
+  }
+  .project-screens {
+    padding-block: 12px 36px;
+  }
+  .project-visual .project-desktop {
+    width: 94%;
+  }
+  .project-mobile {
+    width: 32%;
+    border-width: 3px;
+    border-radius: 12px;
+  }
+  .project-mobile img {
+    border-radius: 9px;
   }
   .project-visual figcaption {
     font-size: 0.875rem;

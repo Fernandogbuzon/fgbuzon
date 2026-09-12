@@ -8,7 +8,7 @@ Logotipo tipográfico «fgbuzon.» en minúsculas, peso alto y punto verde. Geis
 
 Presentación en dos columnas en escritorio y una en móvil; titular con límite de 88 px. En móvil el titular usa 40–48 px y puede ocupar más líneas en pantallas estrechas. Textos habituales de 16–18 px; notas secundarias de 14 px.
 
-El recorrido conserva presentación, ADESA80, Fernando, servicios, proceso, preguntas y contacto. No hay antetítulos ni numeración decorativa. ADESA80 usa una única captura legible: escritorio o móvil mediante picture/source, con dimensiones reservadas. No se inclina ni se mueve la captura.
+El recorrido conserva presentación, ADESA80, Fernando, servicios, proceso, preguntas y contacto. No hay antetítulos ni numeración decorativa. ADESA80 muestra la captura de escritorio con una vista móvil superpuesta, ambas dentro de un único enlace a su web. La composición reserva espacio inferior y adapta la proporción del teléfono a cada pantalla. No se inclinan ni se mueven las capturas.
 
 Servicios en una cuadrícula 2 × 2 que pasa a una columna. El bloque de Fernando se integra entre separadores; el contacto concentra la superficie verde suave. El logotipo del pie tiene un límite de 144 px.
 

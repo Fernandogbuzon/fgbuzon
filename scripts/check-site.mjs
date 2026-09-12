@@ -65,11 +65,12 @@ for (const [name, engine, widths] of [
         );
         const captures = requests.filter((url) => /adesa80-.*\.webp/.test(url));
         check(
-          `${name} ${width} ${colorScheme}: una captura adaptativa`,
-          captures.length === 1 &&
-            captures[0].includes(width <= 600 ? "-mobile" : "-desktop"),
+          `${name} ${width} ${colorScheme}: capturas de escritorio y móvil`,
+          captures.length === 2 &&
+            captures.some((url) => url.includes("-desktop")) &&
+            captures.some((url) => url.includes("-mobile")),
         );
-        report.layouts.push({ name, width, colorScheme, capture: captures[0] });
+        report.layouts.push({ name, width, colorScheme, captures });
         check(
           "Sin almacenamiento hasta una elección manual",
           await page.evaluate(() => localStorage.length === 0),
