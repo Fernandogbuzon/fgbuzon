@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cómo trato tus datos · FG Buzón</title>
+    <meta
+      name="description"
+      content="Qué información se utiliza cuando navegas por esta web o contactas conmigo."
+    />
+    <meta name="theme-color" content="#F6F5F0" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102019'/%3E%3Ctext x='12' y='47' font-family='Arial,sans-serif' font-weight='700' font-size='48' fill='%23F6F5F0'%3Ef%3C/text%3E%3Ccircle cx='48' cy='45' r='6' fill='%2375DDA7'/%3E%3C/svg%3E"
+    />
+    <script>
+      (() => {
+        let preference = "system";
+        try {
+          const saved = localStorage.getItem("fgbuzon-theme");
+          if (["light", "dark", "system"].includes(saved)) preference = saved;
+        } catch {}
+        const theme =
+          preference === "system"
+            ? matchMedia("(prefers-color-scheme: dark)").matches
+              ? "dark"
+              : "light"
+            : preference;
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.preference = preference;
+        document.querySelector('meta[name="theme-color"]').content =
+          theme === "dark" ? "#0B1410" : "#F6F5F0";
+      })();
+    </script>
+    <link
+      rel="preload"
+      href="/assets/geist-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/assets/site.css" />
+    <script type="module" src="/assets/site.js"></script>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FG Buzón" />
+    <meta property="og:title" content="Cómo trato tus datos · FG Buzón" />
+    <meta
+      property="og:description"
+      content="Qué información se utiliza cuando navegas por esta web o contactas conmigo."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Cómo trato tus datos · FG Buzón" />
+    <meta
+      name="twitter:description"
+      content="Qué información se utiliza cuando navegas por esta web o contactas conmigo."
+    />
+
+    <link rel="canonical" href="https://fgbuzon.com/privacidad/" />
+    <meta property="og:url" content="https://fgbuzon.com/privacidad/" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="/#inicio" aria-label="FG Buzón, inicio"
+        >fgbuzon<span>.</span></a
+      >
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="/#adesa80">Proyecto</a><a href="/#servicios">Servicios</a
+        ><a href="/#proceso">Cómo trabajo</a>
+      </nav>
+      <div class="header-actions">
+        <details class="appearance-menu" hidden>
+          <summary aria-label="Apariencia: Sistema" title="Cambiar apariencia">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="8" />
+              <path d="M12 4v16" />
+              <path
+                d="M12 4a8 8 0 0 1 0 16Z"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </summary>
+          <fieldset class="appearance-options">
+            <legend>Apariencia</legend>
+            <label
+              ><input
+                type="radio"
+                name="appearance"
+                value="system"
+                checked
+              /><span>Sistema</span></label
+            >
+            <label
+              ><input type="radio" name="appearance" value="light" /><span
+                >Claro</span
+              ></label
+            >
+            <label
+              ><input type="radio" name="appearance" value="dark" /><span
+                >Oscuro</span
+              ></label
+            >
+          </fieldset>
+        </details>
+        <a class="header-contact" href="/#contacto"
+          >Hablemos <span class="link-arrow" aria-hidden="true">↗</span></a
+        >
+        <details class="mobile-navigation">
+          <summary aria-label="Abrir menú de navegación">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 8h16M4 16h16" />
+            </svg>
+          </summary>
+          <nav aria-label="Navegación móvil">
+            <a href="/#adesa80">Proyecto</a><a href="/#servicios">Servicios</a
+            ><a href="/#proceso">Cómo trabajo</a
+            ><a href="/#contacto"
+              >Hablemos <span class="link-arrow" aria-hidden="true">↗</span></a
+            >
+          </nav>
+        </details>
+      </div>
+    </header>
+    <main class="legal-main wrap" id="contenido" tabindex="-1">
+      <a class="text-link" href="/">← Volver al inicio</a>
+      <h1>Cómo trato tus datos</h1>
+      <p class="legal-lead">
+        Qué información se utiliza cuando navegas por esta web o contactas
+        conmigo.
+      </p>
+      <aside class="legal-status" aria-label="Estado del documento">
+        <strong>Documento en revisión.</strong> Esta versión privada necesita
+        completar la identificación del titular y verificar los proveedores y
+        plazos de conservación antes de publicarse.
+      </aside>
+      <section>
+        <h2>Responsable</h2>
+        <p>
+          Fernando, bajo el nombre FG Buzón. La identificación completa y el
+          domicilio están pendientes de completar en esta versión privada. Para
+          cualquier cuestión de privacidad puedes escribir a
+          <a href="mailto:rrss@fgbuzon.com">rrss@fgbuzon.com</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Cuando contactas</h2>
+        <p>
+          Si escribes por correo, WhatsApp o Instagram, o llamas por teléfono,
+          recibo los datos de contacto y la información que decidas compartir
+          para atender tu consulta.
+        </p>
+        <p>
+          Si solicitas una propuesta para ti, se utilizan para realizar las
+          gestiones previas a una posible contratación. Para otras consultas y
+          comunicaciones profesionales, la base prevista es el interés legítimo
+          en atender y mantener esa comunicación. Esta base se revisará según el
+          tipo de consulta.
+        </p>
+        <p>
+          Comparte únicamente la información necesaria para explicar lo que
+          necesitas. Esta web no incorpora un formulario ni una suscripción a
+          comunicaciones comerciales.
+        </p>
+      </section>
+      <section>
+        <h2>Servicios que intervienen</h2>
+        <p>
+          La versión de revisión está alojada en ChatGPT Sites, de OpenAI. El
+          alojamiento puede tratar información técnica necesaria para prestar y
+          proteger el servicio.
+        </p>
+        <p>
+          Los mensajes enviados a rrss@fgbuzon.com pasan por Cloudflare Email
+          Routing y llegan a Gmail. WhatsApp e Instagram tratan información
+          cuando utilizas sus servicios para contactar.
+        </p>
+        <p>
+          Antes de publicar se concretarán las entidades proveedoras, sus
+          funciones, las condiciones aplicables a las cuentas utilizadas y las
+          garantías para los tratamientos que se realicen fuera del Espacio
+          Económico Europeo.
+        </p>
+      </section>
+      <section>
+        <h2>Conservación</h2>
+        <p>
+          Está pendiente fijar y documentar cuándo se eliminan las consultas sin
+          contratación y cómo se gestionan el correo, los mensajes y las copias
+          de seguridad. La información asociada a un encargo tendrá sus propios
+          criterios de conservación y las obligaciones legales que correspondan.
+          Estos criterios se incorporarán antes de publicar.
+        </p>
+      </section>
+      <section>
+        <h2>Tus derechos</h2>
+        <p>
+          Puedes solicitar acceso, rectificación, supresión, limitación u
+          oposición y, cuando corresponda, portabilidad, escribiendo a
+          <a href="mailto:rrss@fgbuzon.com">rrss@fgbuzon.com</a>. Si un
+          tratamiento se basa en tu consentimiento, puedes retirarlo sin afectar
+          a lo realizado anteriormente.
+        </p>
+        <p>
+          También puedes presentar una reclamación ante la
+          <a href="https://www.aepd.es/"
+            >Agencia Española de Protección de Datos</a
+          >.
+        </p>
+      </section>
+      <section>
+        <h2>Preferencias del navegador</h2>
+        <p>
+          La apariencia elegida se guarda en tu dispositivo. Puedes consultar el
+          funcionamiento y la duración en
+          <a href="/cookies/">cookies y preferencias</a>.
+        </p>
+      </section>
+      <p class="legal-date">
+        Revisión del documento: 12 de septiembre de 2026.
+      </p>
+    </main>
+    <footer class="site-footer wrap">
+      <a
+        class="wordmark footer-wordmark"
+        href="/#inicio"
+        aria-label="FG Buzón, inicio"
+        >fgbuzon<span>.</span></a
+      >
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> FG Buzón · Sanlúcar de Barrameda</p>
+        <nav aria-label="Información legal">
+          <a href="/aviso-legal/">Aviso legal</a
+          ><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

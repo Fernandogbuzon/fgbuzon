@@ -1,0 +1,5 @@
+# Revisión privada. No habilitar indexación hasta completar los requisitos de publicación.
+User-agent: *
+Disallow: /
+
+Sitemap: https://fgbuzon.com/sitemap.xml

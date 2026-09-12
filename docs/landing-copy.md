@@ -1,160 +1,111 @@
-# FG Buzón · Copy de la landing
+# FG Buzón · Contenido implementado
 
-Propuesta editorial · 12 de septiembre de 2026
+Revisión del 12 de septiembre de 2026. El HTML es la fuente de verdad. Webs y herramientas de gestión con el mismo peso, siete secciones sin antetítulos, contacto directo y cinco preguntas. No se publican tarifas, plazos fijos ni servicios de mantenimiento no acordados.
 
-Las notas de layout y las alternativas de titular son indicaciones de edición, no texto para publicar. La propuesta utiliza la primera opción de hero. El contenido comercial describe un proceso por concretar en cada proyecto; no fija tarifas, fechas ni un plan de mantenimiento.
+## Tu negocio, bien presentado. Tu trabajo, mejor organizado.
 
-## 1. Hero
+Soy Fernando. Diseño y desarrollo webs y herramientas de gestión para negocios y entidades, desde Sanlúcar de Barrameda.
 
-**Antetítulo**\
-Diseño y desarrollo web · Sanlúcar de Barrameda
+Hablar por WhatsApp
 
-### Tu web también tiene trabajo que hacer.
+Cuéntame qué haces y qué te gustaría mejorar.
 
-Diseño y desarrollo tu web para que tus clientes entiendan lo que ofreces, contacten contigo y puedan hacer más desde ella.
+Ver mi trabajo para ADESA80
 
-**[Cuéntame tu proyecto](https://wa.me/34674036944?text=Hola%2C%20Fernando.%20Quiero%20comentarte%20un%20proyecto%20web%20para%20mi%20negocio.)**
+## Una web y la gestión de un club.
 
-Me escribes por WhatsApp. Hablamos tú y yo.
+He desarrollado la web pública de ADESA80 y una plataforma para organizar su actividad, con pagos online y accesos según la función de cada persona.
 
-[Ver un proyecto en funcionamiento](#adesa80) ↓
+Ver la web de ADESA80
 
-**Cinco opciones de titular — publicar solo una**
+ADESA80 · Web pública del club
 
-1. **Tu web también tiene trabajo que hacer.** Recomendada: conecta captación y gestión.
-2. **Que tu web te quite trabajo.** Prioriza las tareas que el negocio necesita resolver.
-3. **Que recomendarte sea fácil. Contactarte, también.** Conecta con el boca a boca y las redes.
-4. **Una web que encaja con tu forma de trabajar.** Pone el foco en las necesidades de cada negocio.
-5. **Tu próximo cliente debería tenerlo fácil.** Centra el mensaje en facilitar el contacto.
+### Información para la afición
 
-> Layout recomendado: un único `h1`, titular grande con ancho limitado y alineación izquierda. `max-w-7xl mx-auto px-6 lg:px-10`; dos columnas asimétricas en escritorio y una en móvil. A la derecha, un recorte real del caso destacado con el rótulo «Proyecto en funcionamiento». Un CTA verde sólido y un enlace secundario. El siguiente bloque debe asomar sin exigir una pantalla completa de altura.
+Equipos, resultados y noticias en la web pública.
 
-## 2. Proyecto destacado · ADESA80
+### Pagos en la plataforma
 
-**Antetítulo**\
-ADESA80 · Proyecto en funcionamiento
+Cobros online integrados en la gestión del club.
 
-### Una web para la afición. Un sistema para el club.
+### Cada persona, su acceso
 
-He construido la web pública y la plataforma de gestión de ADESA80, con funciones que comparten datos en tiempo real. Lo que ven las familias y lo que necesita el club para organizarse.
+Funciones y datos según su responsabilidad.
 
-- **Pagos online.** Cobros integrados en la plataforma.
-- **Cada persona, su acceso.** Funciones y datos según su responsabilidad.
-- **La gestión, conectada.** Autobuses, torneos, finanzas y horarios en una misma plataforma.
-- **Preparada para crecer.** Diseñada para incorporar otros clubes, cada uno con sus datos separados.
+## Hablas conmigo. Lo construyo yo.
 
-**[Ver ADESA80 en directo](https://adesa80.com/)**
+Soy Fernando y me ocupo del diseño y del desarrollo de tu proyecto. Desde la primera conversación hasta la entrega, hablamos directamente y revisamos juntos los avances.
 
-Tu negocio tendrá otras necesidades. El trabajo empieza por entenderlas y construir lo que las resuelve.
+Fernando
 
-[Hablemos de las tuyas](https://wa.me/34674036944?text=Hola%2C%20Fernando.%20Quiero%20comentarte%20un%20proyecto%20web%20para%20mi%20negocio.)
+## ¿Qué te gustaría mejorar?
 
-> Layout recomendado: `section id="adesa80"` con una captura pública grande y un segundo recorte del cuadrante de horarios. Mostrar capturas auténticas; para gestión interna, usar una vista preparada con datos de demostración. Cuatro beneficios en `grid grid-cols-1 sm:grid-cols-2 gap-6`. Etiquetas sugeridas: «Web pública» y «Gestión del club». Los rótulos de las capturas son texto HTML. No hacen falta métricas para demostrar las funciones.
+### Una página para tu oferta
 
-## 3. Quién soy
+Presenta un servicio, una campaña o una idea con claridad y facilita que quien llegue desde Instagram o una recomendación te contacte.
 
-### Soy Fernando. Hablas conmigo. Lo construyo yo.
+### Una web para tu negocio
 
-Diseño y desarrollo webs desde Sanlúcar de Barrameda para negocios, proyectos e instituciones.
+Reúne tus servicios, tu forma de trabajar y la información que tus clientes necesitan para conocerte y dar el siguiente paso.
 
-Me ocupo del diseño y de lo que hay detrás: que la web cargue rápido, se entienda y que cada función haga su trabajo.
+### Una herramienta para gestionar
 
-Trabajo con herramientas como Next.js y Astro. Las elijo según lo que tu proyecto necesita.
+Organiza usuarios, pagos y tareas en una plataforma propia, pensada para la forma de trabajar de tu negocio, equipo o asociación.
 
-> Layout recomendado: bloque editorial de dos columnas, titular en una y dos párrafos breves en la otra; `grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16`. La última frase tiene menor jerarquía visual, con el mismo contraste legible. El logotipo puede acompañar el bloque; una fotografía personal solo si Fernando aporta una real.
+### Menos tareas repetidas
 
-## 4. Servicios
+Conecta las herramientas que ya utilizas para pasar datos, enviar avisos o completar registros sin tener que repetir cada paso a mano.
 
-### ¿Qué necesita hacer tu web?
+## Así damos forma a tu idea.
 
-**Una página que lleve al contacto**\
-Presenta tu oferta y facilita el siguiente paso.\
-Para negocios que reciben visitas desde Instagram, recomendaciones o campañas.
+### Hablamos
 
-**Una web que explique bien quién eres**\
-Ordena tus servicios y facilita encontrar la información.\
-Para empresas, asociaciones e instituciones.
+Me cuentas qué haces, qué te gustaría mejorar y con qué cuentas ahora.
 
-**Una herramienta para gestionar tu actividad**\
-Reúne usuarios, pagos y tareas en un panel o portal propio.\
-Para negocios y clubes que necesitan trabajar desde una misma plataforma.
+### Definimos el proyecto
 
-**Menos tareas repetidas**\
-Conecta herramientas para que los datos pasen de una a otra.\
-Para equipos que repiten registros, avisos o comprobaciones a mano.
+Acordamos alcance, presupuesto, plazos y responsabilidades antes de empezar.
 
-[Cuéntame qué necesitas resolver](https://wa.me/34674036944?text=Hola%2C%20Fernando.%20Quiero%20comentarte%20un%20proyecto%20web%20para%20mi%20negocio.)
+### Diseño y desarrollo
 
-> Layout recomendado: cuatro módulos en `grid grid-cols-1 md:grid-cols-2`, separados por líneas finas, con título, beneficio y destinatario. Evitar cuatro botones equivalentes: un único enlace al terminar. Correspondencia editorial: landing de conversión, web corporativa/institucional, aplicación web a medida y automatizaciones/integraciones.
+Doy forma al proyecto y comparto los avances para que puedas revisarlos.
 
-## 5. Proceso
+### Revisamos y publicamos
 
-### Del primer mensaje a una web funcionando.
+Comprobamos juntos el resultado y dejamos acordada su puesta en marcha.
 
-**01 · Me cuentas qué necesitas**\
-Hablamos de tu negocio, de lo que quieres mejorar y de lo que ya tienes.
+## Antes de empezar.
 
-**02 · Concretamos el proyecto**\
-Acordamos qué vamos a construir, cuánto cuesta y cuándo estará listo.
+### ¿Cuánto cuesta un proyecto?
 
-**03 · Ves cómo toma forma**\
-Revisamos el diseño y las funciones con el proyecto delante.
+El presupuesto depende de lo que haya que construir. Primero concretamos qué necesitas y después te presento una propuesta con el alcance, el precio y los costes asociados antes de empezar.
 
-**04 · Probamos y publicamos**\
-Comprobamos los recorridos principales y te explico cómo usarla.
+### ¿Cuánto tiempo lleva?
 
-> Layout recomendado: lista ordenada `ol`, en cuatro columnas para escritorio y una columna en móvil, `grid grid-cols-1 lg:grid-cols-4 gap-8`. Numeración pequeña y títulos claros. La sección completa debe poder leerse de un vistazo.
+Depende del tamaño del proyecto y de los contenidos o materiales necesarios. Acordamos el calendario en la propuesta, teniendo en cuenta también tus tiempos de revisión.
 
-## 6. Preguntas frecuentes
+### ¿Puedes mejorar la web que ya tengo?
 
-### Antes de empezar.
+Sí. Primero reviso cómo está hecha y qué quieres cambiar. A partir de ahí te explico qué se puede aprovechar y qué conviene rehacer.
 
-**¿Cuánto cuesta?**\
-El presupuesto se prepara según las páginas, funciones e integraciones que necesitas. Concretamos qué incluye antes de empezar.
+### ¿Tengo que preparar los textos y las imágenes?
 
-**¿Cuánto tarda?**\
-La fecha se acuerda al definir el alcance y revisar qué contenidos hacen falta. Tendrás un plazo para tu proyecto antes de arrancar.
+Revisamos qué tienes y qué falta. Dejamos acordado quién prepara cada contenido y si necesitas ayuda, para incluir ese trabajo en la propuesta.
 
-**¿Y después del lanzamiento?**\
-El soporte, las actualizaciones y sus costes se concretan según lo que necesites. Lo dejamos definido antes de publicar.
+### ¿Y el dominio, el alojamiento y el mantenimiento?
 
-**¿Necesito saber de tecnología o tenerlo todo preparado?**\
-Solo necesitas contarme qué haces y qué quieres mejorar. Te ayudo a ordenar las funciones y los contenidos necesarios.
+Antes de empezar definimos quién se encarga de cada parte, qué costes tendrá y qué asistencia necesitarás después de publicar. Todo quedará recogido en la propuesta.
 
-**¿Ya tengo una web. Hay que empezar de cero?**\
-Primero revisamos qué funciona, qué falla y qué quieres conseguir. A partir de ahí, vemos qué se puede conservar.
+## Cuéntame qué te gustaría mejorar.
 
-**¿Podemos empezar con algo pequeño?**\
-Sí. Podemos definir una primera versión que resuelva lo esencial y valorar después las siguientes mejoras.
+Tu negocio, tu web actual o esa tarea que repites a mano. Con dos líneas podemos empezar.
 
-> Layout recomendado: acordeón con `details` y `summary`, `max-w-3xl`, separadores y una pregunta por fila. Primera respuesta abierta. Los controles deben funcionar con teclado y mostrar el foco. Estas respuestas proponen un método para concretar cada encargo; el alcance del mantenimiento se reflejará en la propuesta comercial de cada proyecto.
+Hablar por WhatsApp
 
-## 7. Contacto
+Cómo trato tus datos
 
-### Cuéntame qué debería hacer tu web.
+Llamar al 674 036 944
 
-Con dos líneas sobre tu negocio y lo que necesitas, podemos empezar a hablar.
+rrss@fgbuzon.com
 
-**[Hablar por WhatsApp](https://wa.me/34674036944?text=Hola%2C%20Fernando.%20Quiero%20comentarte%20un%20proyecto%20web%20para%20mi%20negocio.)**
-
-Hablas directamente conmigo, Fernando.
-
-[Prefiero llamar · 674 036 944](tel:+34674036944)\
-[rrss@fgbuzon.com](mailto:rrss@fgbuzon.com) · [Instagram · @fgbuzon](https://www.instagram.com/fgbuzon/)
-
-Diseño y desarrollo web para necesidades reales. Como las que ya resuelve ADESA80.
-
-> Layout recomendado: una superficie suave del color de marca, titular amplio y un botón principal. Llamada, email e Instagram aparecen como enlaces secundarios. `rounded-2xl px-6 py-12 md:p-16`. En móvil, el botón ocupa el ancho disponible. Sin formulario: WhatsApp es la entrada principal y el usuario envía el mensaje desde su aplicación.
-
----
-
-**Pie de página**\
-fgbuzon. · Diseño y desarrollo web desde Sanlúcar de Barrameda.
-
-**Cabecera**\
-Marca: fgbuzon.\
-Navegación: Proyecto · Servicios · Cómo trabajo\
-Botón: Hablemos\
-Selector de apariencia: Sistema · Claro · Oscuro\
-Nombre accesible del selector: Apariencia\
-Enlace para navegación por teclado: Saltar al contenido
+Instagram @fgbuzon
