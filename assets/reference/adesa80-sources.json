@@ -1,0 +1,31 @@
+{
+  "capturedAt": "2026-09-12T20:33:25.462Z",
+  "source": "https://adesa80.com/",
+  "screenshots": [
+    {
+      "file": "adesa80-desktop.png",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "adesa80-mobile.png",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "interaction": "Rejected optional cookies using the visible Rechazar todas button. No page content or styles modified.",
+  "logos": [
+    {
+      "file": "logo-adesa-sin-fondo.svg",
+      "url": "https://adesa80.com/Adesa/svg/logo-adesa-sin-fondo.svg",
+      "width": 435,
+      "height": 289
+    },
+    {
+      "file": "logo-adesa-oscuro.svg",
+      "url": "https://adesa80.com/Adesa/svg/logo-adesa-oscuro.svg",
+      "width": 435,
+      "height": 289
+    }
+  ]
+}

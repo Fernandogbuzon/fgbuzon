@@ -1,0 +1,14 @@
+{
+  "name": "fgbuzon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Diseño y desarrollo web de Fernando · FG Buzón",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
