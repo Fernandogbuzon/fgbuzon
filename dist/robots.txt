@@ -1,5 +1,6 @@
-# Revisión privada. No habilitar indexación hasta completar los requisitos de publicación.
+# Web pública con indexación pendiente de completar la información legal.
+# Permitir el rastreo para que los buscadores puedan leer el noindex del HTML.
 User-agent: *
-Disallow: /
+Allow: /
 
 Sitemap: https://fgbuzon.com/sitemap.xml

@@ -71,6 +71,13 @@ for (const [name, engine, widths] of [
             captures.some((url) => url.includes("-mobile")),
         );
         report.layouts.push({ name, width, colorScheme, captures });
+        if (width === 390) {
+          check(
+            `${name} ${colorScheme}: variantes ligeras a 390 px y DPR 1`,
+            captures.some((url) => url.endsWith("adesa80-desktop-480.webp")) &&
+              captures.some((url) => url.endsWith("adesa80-mobile-160.webp")),
+          );
+        }
         check(
           "Sin almacenamiento hasta una elección manual",
           await page.evaluate(() => localStorage.length === 0),
@@ -324,7 +331,7 @@ try {
       new Set(metadata).size === metadata.length,
     );
     check(
-      `${path}: revisión no indexable`,
+      `${path}: noindex mientras se completa la información legal`,
       (await p.locator('meta[name="robots"]').getAttribute("content")) ===
         "noindex, nofollow",
     );
@@ -332,6 +339,13 @@ try {
       `${path}: canonical de destino`,
       (await p.locator('link[rel="canonical"]').getAttribute("href")) ===
         "https://fgbuzon.com" + path,
+    );
+    check(
+      `${path}: imagen al compartir`,
+      (await p.locator('meta[property="og:image"]').getAttribute("content")) ===
+        "https://fgbuzon.com/assets/og-fgbuzon.png" &&
+        (await p.locator('meta[name="twitter:card"]').getAttribute("content")) ===
+          "summary_large_image",
     );
     if (path !== "/") {
       check(
@@ -375,6 +389,20 @@ for (const [path, status] of [
     (await fetch(origin + path)).status === status,
   );
 }
+const robots = await (await fetch(origin + "/robots.txt")).text();
+check(
+  "Rastreo permitido para que el buscador pueda leer noindex",
+  /^Allow: \/$/m.test(robots) && !/^Disallow: \/$/m.test(robots),
+);
+const socialResponse = await fetch(origin + "/assets/og-fgbuzon.png");
+const socialImage = Buffer.from(await socialResponse.arrayBuffer());
+check(
+  "Imagen social PNG de 1200 por 630 disponible",
+  socialResponse.status === 200 &&
+    socialImage.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) &&
+    socialImage.readUInt32BE(16) === 1200 &&
+    socialImage.readUInt32BE(20) === 630,
+);
 check(
   "HEAD sin cuerpo",
   (await (await fetch(origin, { method: "HEAD" })).text()) === "",
